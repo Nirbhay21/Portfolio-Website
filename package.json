@@ -1,0 +1,25 @@
+{
+  "name": "portfolio-websites",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nirbhay21/Portfolio-Website.git"
+  },
+  "author": "Nirbhay Marde",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Nirbhay21/Portfolio-Website/issues"
+  },
+  "homepage": "https://github.com/Nirbhay21/Portfolio-Website#readme",
+  "description": "",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  },
+  "dependencies": {
+    "matter": "^0.2.0"
+  }
+}

@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    #wrapper-canvas canvas {
+        max-width: 100%;
+        max-height: 100%;
+    }
+
+    @font-face {
+        font-family: spartan;
+        src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap");
+    }
+
+    @font-face {
+        font-family: nunito;
+        src: url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+    }
+
+    @font-face {
+        font-family: merriweather;
+        src: url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;1,300;1,400");
+    }
+
+    @font-face {
+        font-family: dancing;
+        src: url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap");
+    }
+}
+
+@layer utilities {
+    .popup {
+        @apply pointer-events-auto fixed z-[2] w-5/6 left-16 sm:left-32 lg:left-40 2xl:left-1/4 top-[52%] sm:top-[56%] -translate-x-1/2 -translate-y-1/2 space-y-4 rounded-lg bg-neutral-800 px-6 py-5 sm:p-8 shadow-lg transition-all scale-0 lg:flex max-w-screen-xl duration-300 ease-in-out;
+    }
+
+    .popup--open {
+        @apply pointer-events-auto left-1/2 top-1/2 block -translate-x-1/2 -translate-y-1/2 scale-100 lg:flex;
+    }
+}
