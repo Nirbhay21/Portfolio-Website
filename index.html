@@ -220,7 +220,7 @@
                     Frontend Developer</p>
                 <button id="aboutMeBtn"
                     class="group pointer-events-auto flex items-center transition-transform hover:scale-105">
-                    <span class="rounded-md bg-gradient-to-r from-blue-900 to-sky-600 px-5 py-2 font-semibold">About
+                    <span class="rounded-md bg-opacity-0 bg-gradient-to-r from-blue-900 to-sky-600 px-5 py-2 font-semibold hover:bg-opacity-90 hover:from-blue-950 hover:to-sky-700 active:from-blue-800 active:to-sky-500">About
                         Me</span>
                     <svg class="-m-3 h-8 w-8 transition-all group-hover:-m-1.5" xmlns="http://www.w3.org/2000/svg"
                         version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 512 512"
@@ -593,7 +593,7 @@
         <div class="flex items-center justify-center">
             <button
                 class="group relative mb-16 flex flex-col items-center transition-transform ease-in-out hover:scale-105 md:mb-20">
-                <a class="rounded-md bg-gradient-to-r from-blue-900 to-sky-600 px-5 py-2 text-lg font-semibold"
+                <a class="rounded-md bg-gradient-to-r from-blue-900 to-sky-600 px-5 py-2 text-lg font-semibold hover:from-blue-950 hover:to-sky-700 active:from-blue-800 active:to-sky-500" 
                     href="#latestWorks">Latest Works</a>
                 <svg class="absolute top-14 -mt-1 h-8 w-8 rotate-90 transition-all group-hover:top-16"
                     xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0"
@@ -970,12 +970,12 @@
                     </linearGradient>
                 </defs>
             </svg>
-            <form class="flex flex-col space-y-4 md:text-lg lg:w-1/2" name="connect-from-portfolio" netlify>
+            <form class="flex flex-col space-y-4 md:text-lg lg:w-1/2" name="connectWithMe" netlify>
                 <div class="space-y-1">
                     <label class="flex items-center space-x-2 md:space-x-3" for="name">
-                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 45.532 45.532"
-                            style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg"
+                            version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
+                            viewBox="0 0 45.532 45.532" style="enable-background:new 0 0 512 512" xml:space="preserve">
                             <g>
                                 <path
                                     d="M22.766.001C10.194.001 0 10.193 0 22.766s10.193 22.765 22.766 22.765c12.574 0 22.766-10.192 22.766-22.765S35.34.001 22.766.001zm0 6.807a7.53 7.53 0 1 1 .001 15.06 7.53 7.53 0 0 1-.001-15.06zm-.005 32.771a16.708 16.708 0 0 1-10.88-4.012 3.209 3.209 0 0 1-1.126-2.439c0-4.217 3.413-7.592 7.631-7.592h8.762c4.219 0 7.619 3.375 7.619 7.592a3.2 3.2 0 0 1-1.125 2.438 16.702 16.702 0 0 1-10.881 4.013z"
@@ -989,8 +989,8 @@
                 </div>
                 <div class="space-y-1">
                     <label class="flex items-center space-x-2 md:space-x-3" for="email">
-                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 512 512"
+                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg"
+                            version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 512 512"
                             style="enable-background:new 0 0 512 512" xml:space="preserve">
                             <g>
                                 <path
@@ -1008,9 +1008,9 @@
                 </div>
                 <div class="flex flex-grow flex-col space-y-1">
                     <label class="flex items-center space-x-2 md:space-x-3" for="message">
-                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg" version="1.1"
-                            xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 682.667 682"
-                            style="enable-background:new 0 0 512 512" xml:space="preserve">
+                        <svg class="h-4 w-4 text-slate-300 md:h-5 md:w-5" xmlns="http://www.w3.org/2000/svg"
+                            version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0"
+                            viewBox="0 0 682.667 682" style="enable-background:new 0 0 512 512" xml:space="preserve">
                             <g>
                                 <path
                                     d="M552.012-1.332H87.988C39.473-1.332 0 38.133 0 86.656V370.63c0 48.414 39.3 87.816 87.676 87.988V587.48l185.191-128.863h279.145c48.515 0 87.988-39.472 87.988-87.988V86.656c0-48.523-39.473-87.988-87.988-87.988zm50.488 371.96c0 27.837-22.648 50.49-50.488 50.49h-290.91l-135.926 94.585v-94.586H87.988c-27.84 0-50.488-22.652-50.488-50.488V86.656c0-27.843 22.648-50.488 50.488-50.488h464.024c27.84 0 50.488 22.645 50.488 50.488zm0 0"
@@ -1026,7 +1026,8 @@
                         class="h-40 w-full flex-grow rounded-md border-2 border-slate-500 bg-[#374151] px-3 py-1.5 text-sm outline-none focus:border-sky-600 md:text-base lg:h-auto"
                         name="message" id="message"></textarea>
                 </div>
-                <button class="flex w-full items-center justify-center space-x-3 rounded-md bg-sky-600 p-3 font-semibold">
+                <button
+                    class="flex w-full items-center justify-center space-x-3 rounded-md bg-sky-600 p-3 font-semibold hover:bg-sky-700 active:bg-sky-500">
                     <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" version="1.1"
                         xmlns:xlink="http://www.w3.org/1999/xlink" x="0" y="0" viewBox="0 0 24 24"
                         style="enable-background:new 0 0 512 512" xml:space="preserve">
